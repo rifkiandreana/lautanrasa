@@ -1,0 +1,30 @@
+.andre {
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 50px;
+  margin-top: -3rem;
+}
+
+.Deskripsi {
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  font-family: "Segoe UI";
+  font-size: 20px;
+}
+
+.cumi {
+  text-align: center;
+  size: 30px;
+}
+
+.satu {
+  max-width: max-content;
+  height: 70vh;
+}
+
+.dua {
+  height: 100%;
+  overflow: auto;
+}

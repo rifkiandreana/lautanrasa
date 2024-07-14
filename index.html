@@ -1,0 +1,230 @@
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet" />
+    <title>Lautan Rasa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="font-RobotoMono items-center fixed flex justify-between w-full bg-transparent text-black px-[10px] py-[10px]">
+      <div>
+        <p><img src="img/7.png" alt="" height="70px" width="70px" /></p>
+      </div>
+
+      <div class="hidden md:block">
+        <ul class="flex gap-[15px]">
+          <!-- <li class="nav">Home</li> -->
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#Home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#About">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="#Menu">Menu</a>
+            <!-- <li>About</li>
+          <li>Menu</li> -->
+          </li>
+        </ul>
+      </div>
+
+      <div id="hamburgerButton" class="md:hidden">
+        <span id="ham1" class="transition origin-top-left w-[30px] h-[2px] bg-black rounded-md block mb-[8px]"> </span>
+        <span id="ham2" class="transition w-[30px] h-[2px] bg-black rounded-md block mb-[8px]"> </span>
+        <span id="ham3" class="transition origin-bottom-left w-[30px] h-[2px] bg-black rounded-md block mb-[8px]"> </span>
+      </div>
+    </nav>
+
+    <div id="navkecil" class="md:hidden transition fixed w-[200px] bg-teal-500 top-[130px] right-[20px] rounded-md shadow-2xl scale-0" style="z-index: 1000">
+      <a href="#Home" class="block my-[7px] text-center text-white">Home</a>
+      <a href="#About" class="block my-[7px] text-center text-white">About</a>
+      <a href="#Menu" class="block my-[7px] text-center text-white">Menu</a>
+      <a href="Kontak" class="block my-[7px] text-center text-white">Kontak</a>
+    </div>
+
+    <section id="Home" class="bg-white">
+      <div class="flex w-full min-h-screen items-center justify-center gap-20">
+        <div class="w-1/2 px-[50px]">
+          <p class="text-4xl font-RobotoMono">
+            Lautan Rasa<br />
+            <span class="text-2xl text-green-600"> Mempersembahkan Keindahan Laut dalam Setiap Gigitan.</span>
+          </p>
+        </div>
+        <div class="flex w-ful min-h-screen items-center w-1/2">
+          <img src="img/7.png" alt="" style="margin-left: 20%" />
+        </div>
+      </div>
+    </section>
+
+    <section id="About">
+      <p class="andre text-green-600">About</p>
+      <div class="flex flex-row">
+        <div class="basis-3/4">
+          <p class="Deskripsi ml-10">
+            "Lautan Rasa" adalah sebuah restoran yang menyajikan kelezatan laut terbaik dalam setiap hidangan. Temukan cita rasa laut yang autentik dan kualitas terbaik dari samudra ke piring Anda. Pengalaman kuliner laut yang tak
+            terlupakan dan sehat dengan sentuhan khas pesisir hanya di sini.
+          </p>
+          <div class="px-5 py-10">
+            <h1 class="text-xl font-extrabold text-green-600 dark:text-white"><span class="text-transparent bg-clip-text bg-gradient-to-r to-green-200 from-indigo-400">Keunggulan</span>.</h1>
+            <ul class="text-lg font-normal lg:text-xl dark:text-gray-400">
+              <br />
+              <li class="text-base font-bold text-black text-left">Bahan Baku Segar <br /><span class="text-green-600">Kami hanya menggunakan seafood segar berkualitas tinggi yanag langsung di ambil daari nelayan</span></li>
+              <li class="text-base font-bold text-black text-left">Ragam Menu <br /><span class="text-green-600">Menu beragam dengan hidangan klasik dan inovatif.</span></li>
+              <li class="text-base font-bold text-black text-left">Suasan Hangat <br /><span class="text-green-600">Pengalaman makan yang nyaman dan ramah di sertai pemandangan restoranyang menakjubkan</span></li>
+              <li class="text-base font-bold text-black text-left">
+                Lokasi yang Strategis <br /><span class="text-green-600"
+                  >Kami terletak di lokasi strategis yang mudah diakses, membuat kami menjadi tempat yang ideal untuk pertemuan bisnis atau bersantai bersama keluarga dan teman-teman.</span
+                >
+              </li>
+              <li class="text-base font-bold text-black text-left">
+                Harga Terjangkau <br /><span class="text-green-600">Kami menawarkan makanan berkualitas tinggi dengan harga yang terjangkau, sehingga setiap orang dapat menikmati pengalaman kuliner yang luar biasa.</span>
+              </li>
+              <li class="text-base font-bold text-black text-left">
+                Reservasi Online <br /><span class="text-green-600">Kami menyediakan fasilitas reservasi online untuk kenyamanan Anda, sehingga Anda dapat merencanakan kunjungan Anda dengan mudah.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br />
+
+        <div class="basis-1/4">
+          <p style="text-align: center; margin-left: -4; font-size: x-large">Rekomendasi</p>
+          <br />
+          <div class="satu">
+            <div class="dua">
+              <center><img src="img/Fried Calamari Recipe.jpeg" alt="rekomendasi1" style="display: block; margin: 0%; max-width: 70%; max-height: 70vh" /></center>
+              <p style="text-align: center">Cumi Goreng</p>
+              <style>
+                .rating {
+                  color: gold;
+                  font-size: 24px;
+                  text-align: center;
+                }
+              </style>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+              <br />
+              <center><img src="img/Easy to prepare Oven Baked Whole Yellowtail Snapper recipe_.png" alt="rekomendasi1" style="display: block; margin: 0%; max-width: 70%; max-height: 70vh" /></center>
+              <p style="text-align: center">Ikan Goreng</p>
+              <style>
+                .rating {
+                  color: gold;
+                  font-size: 24px;
+                  text-align: center;
+                }
+              </style>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <br />
+              <br />
+              <center><img src="img/ikanbakr.jpg" alt="rekomendasi1" style="display: block; margin: 0%; max-width: 70%; max-height: 70vh" /></center>
+              <p style="text-align: center">Ikan Bakar</p>
+              <style>
+                .rating {
+                  color: gold;
+                  font-size: 24px;
+                  text-align: center;
+                }
+              </style>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br />
+
+    <section id="Menu" style="height: 640px">
+      <p class="andre text-green-600">Menu</p>
+      <center>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" style="width: 50%; position: ">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="img/menu3.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <p style="background-color: aliceblue; color: green; font-size: xx-large">Nasi Goreng seafood</p>
+                <p style="background-color: aliceblue; color: green">Nasi Goreng yang terbuat dari berbagai rempah-rempah khas indonesia dengan di padupandankan hasil olahan laut yang yang ciamik.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/menu2.webp" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <p style="background-color: aliceblue; color: green; font-size: xx-large">Tumis Udang</p>
+                <p style="background-color: aliceblue; color: green">Dibuat dari udang pilihan yang fresh.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/menu4.webp" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <p style="background-color: aliceblue; color: green; font-size: xx-large">Gurame Asam-Manis</p>
+                <p style="background-color: aliceblue; color: green">Berasal dari gurame pilihan terbaik yang di budidaya oleh warga lokal situbondo yang pasti sangat lezat di campurkan dengan rempah-rempah khas toko ini.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/ikangorengfix.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <p style="background-color: aliceblue; color: green; font-size: xx-large">Ikan Goreng</p>
+                <p style="background-color: aliceblue; color: green">Ikan terbaik di kelasnya yang cocok untuk di goreng</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/lelecrispy.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <p style="background-color: aliceblue; color: green; font-size: xx-large">Lele Crispy</p>
+                <p style="background-color: aliceblue; color: green">Lele terbaik yang berasal dari pembudidaya handal dan tentunya bukan berasal dari empang warga dong.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/ikanbakarfix.webp" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <p style="background-color: aliceblue; color: green; font-size: xx-large">Ikan Bakar</p>
+                <p style="background-color: aliceblue; color: green">Ikan pilihan terbaik yang di bakar dengan sinar ultrafeng.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </center>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <section id="footer">
+      <footer class="bg-green-600">
+        <div class="mx-auto max-w-screen-xl px-2 py-4 sm:px-4 lg:px-7">
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <div class="flex justify-center text-teal-600 sm:justify-start">
+              <a style="margin-left: 5px" href="https://www.instagram.com/rifkiandreanaa/"><img src="img/instagram-logo.png" alt="ig" style="height: 50px; height: 50px" /></a>
+
+              <a href="https://www.instagram.com/rifkiandreanaa/"><img src="img/facebook.png" alt="ig" style="height: 50px; height: 50px" /></a>
+              <a href="https://www.instagram.com/rifkiandreanaa/"><img src="img/whatsapp.png" alt="ig" style="height: 50px; height: 50px" /></a>
+            </div>
+
+            <p class="mt-4 text-center text-sm text-black lg:mt-0 lg:text-right">Copyright &copy; 2022. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="andre.js"></script>
+  </body>
+</html>
